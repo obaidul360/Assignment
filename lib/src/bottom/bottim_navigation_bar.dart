@@ -3,6 +3,7 @@ import 'package:coderangoan_assignment/src/screen/favorite_page.dart';
 import 'package:coderangoan_assignment/src/screen/order_page.dart';
 import 'package:flutter/material.dart';
 
+import '../screen/assignment.dart';
 import '../screen/home_page.dart';
 
 class BottimNavigationBarScree extends StatefulWidget {
@@ -17,7 +18,7 @@ class _BottimNavigationBarScreeState extends State<BottimNavigationBarScree> {
   final List Pages=[
     CustomDesign(),
     FavoritePage(),
-    CartPage(),
+    Assignment(),//CartPage(),
     OrderPage()
   ];
   @override
@@ -37,7 +38,7 @@ class _BottimNavigationBarScreeState extends State<BottimNavigationBarScree> {
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home),label: "Home"),
           BottomNavigationBarItem(icon: Icon(Icons.favorite_border),label: "Favorite"),
-          BottomNavigationBarItem(icon: Icon(Icons.card_travel),label: "Cart"),
+          BottomNavigationBarItem(icon: Icon(Icons.assignment),label: "Assignment"),
           BottomNavigationBarItem(icon: Icon(Icons.person),label: "Account"),
         ]),
     );
