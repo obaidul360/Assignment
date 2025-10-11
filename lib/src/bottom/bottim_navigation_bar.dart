@@ -4,6 +4,7 @@ import 'package:coderangoan_assignment/src/screen/order_page.dart';
 import 'package:flutter/material.dart';
 
 import '../assignment/assignment_6/assignment.dart';
+import '../salef_practice/poem_screen/home_poem_screen.dart';
 import '../screen/assignment.dart';
 import '../screen/home_page.dart';
 
@@ -17,7 +18,7 @@ class BottimNavigationBarScree extends StatefulWidget {
 class _BottimNavigationBarScreeState extends State<BottimNavigationBarScree> {
   int indexNumber=0;
   final List Pages=[
-    AssignmentSix(),
+    HomePage(),//AssignmentSix(),
     FavoritePage(),
     Assignment(),//CartPage(),
     OrderPage()
