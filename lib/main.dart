@@ -1,6 +1,8 @@
 
 import 'package:coderangoan_assignment/src/salef_practice/list_view_builder/list_view.dart';
+import 'package:coderangoan_assignment/src/salef_practice/list_view_builder/watch.dart';
 import 'package:coderangoan_assignment/src/salef_practice/model_provider_details/moldel_details.dart';
+import 'package:coderangoan_assignment/src/timer.dart';
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
         ],
         child: MaterialApp(
           debugShowCheckedModeBanner: false,
-          home: ListViewBui()//BottimNavigationBarScree(),
+          home: TimerScreenWatch()//TimerApp()//TimerScreen()// ListViewBui()//BottimNavigationBarScree(),
         ),
       ),
     );
