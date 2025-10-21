@@ -135,7 +135,7 @@ class _TimerScreenWatchState extends State<TimerScreenWatch> {
                       children: [
                         ElevatedButton(
                           onPressed: () {
-                            status = true;
+                            status= true;
                             timerFun();
                           },
                           style: ElevatedButton.styleFrom(
