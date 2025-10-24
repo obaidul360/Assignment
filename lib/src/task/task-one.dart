@@ -37,7 +37,6 @@ class TaskOne extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 8),
                 child: Align(
-
                   alignment: Alignment.topLeft,
                   child: Text(
                     "Create your Account",

@@ -72,7 +72,7 @@ class _TaskTowState extends State<TaskTow> {
               Container(
                 height: 55,
                 child: TextField(
-                  keyboardType: TextInputType.name,
+                  keyboardType: TextInputType.emailAddress,
                   style: TextStyle(color: Colors.blue),
                   textAlign: TextAlign.left,
                   decoration: InputDecoration(
