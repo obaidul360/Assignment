@@ -264,10 +264,11 @@ class _TaskTwoState extends State<TaskTwo> {
                           icon: Icon(
                             Icons.highlight,
                             size: 30,
-                            color: Colors.blue,
+                            color: Colors.grey,
+
                           ),
                           label: Text(
-                            "Light",
+                            "Lights",
                             style: TextStyle(fontSize: 16, color: Colors.black),
                           ),
                         )
@@ -301,7 +302,7 @@ class _TaskTwoState extends State<TaskTwo> {
               child: DropdownButton<String>(
                 value: _itemsSelected,
                 hint: Text(
-                  "Tecnology",
+                  "Your subject",
                   style: TextStyle(fontSize: 18),
                 ), // Default লেখা
                 icon: Icon(Icons.arrow_drop_down), // নিচের তীর চিহ্ন
